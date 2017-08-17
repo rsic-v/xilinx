@@ -112,20 +112,36 @@ $ make ARCH=arm UIMAGE_LOADADDR=0x8000 uImage  -j4
 
 &gem0 {
 
+
         local-mac-address = [00 0a 35 00 00 00];
+
         phy-mode = "rgmii-id";
+
         status = "okay";
+
         xlnx,ptp-enet-clock = <0x4f790d8>;
+
         phy-handle = <&phy0>;
+
 };
 
+
+
 &gem1 {
+
         local-mac-address = [00 0a 35 00 00 05];
+
         phy-mode = "rgmii-id";
+
         status = "okay";
+
         xlnx,ptp-enet-clock = <0x4f790d8>;
+
         phy-handle = <&phy1>;
+
 };
+
+
 
 3. Build the device tree blob, and copy uImage and the .dtb file to your boot partition.
 
