@@ -5,11 +5,14 @@ Dual Microchip KSZ9031 PHY Ethernet problem for ZYNQ
                                                                 2017.8.17
 
 The problem is dual ethernet phy shared mdio,and only one ethernet can works.
+
 Patch is applicable ONLY to the 2017.2 kernel 
 
 Now do as follows:
  
-1. checkout, patch, and build 2017.2 kernel
+
+1.checkout, patch, and build 2017.2 kernel
+
  
 $ git clone --branch xilinx-v2017.2 --depth 1 https://github.com/Xilinx/linux-xlnx.git
 
