@@ -56,7 +56,7 @@
        };
 };
 &gem0 {
-	local-mac-address = [00 0a 35 00 00 00];
+	local-mac-address = [00 0a 35 00 00 22];
 	phy-mode = "rgmii-id";
 	status = "okay";
 	xlnx,ptp-enet-clock = <0x4f790d8>;
