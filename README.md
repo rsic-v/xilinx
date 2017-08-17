@@ -176,7 +176,7 @@ The patch is availble for other ethernet phy devices.
 
 4.
 
-You can download  dts and kernel source code from my gitgub
+You can download  dts and kernel source code from my git
 
 git clone git@github.com:alvin-luhao/xilinx.git
 
