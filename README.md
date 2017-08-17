@@ -183,4 +183,4 @@ git clone git@github.com:alvin-luhao/xilinx.git
 
 
 5.
-You should not add ( "compatible = "micrel,ksz9031") to the devicetree.Otherwise,the error log as "can not find the phy device" wiil appear.
+You should not add ( "compatible = "micrel,ksz9031") to the devicetree.Otherwise,the error log as "can not find the phy device" will appear.
